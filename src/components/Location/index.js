@@ -1,14 +1,14 @@
 import React from "react"
 
-import { colors } from '../../styles'
+import { colors } from "../../styles"
 
 const containerStyles = {
-  width: '100vw',
-  height: '100vh',
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: 'center',
+  width: "100vw",
+  height: "100vh",
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "center",
   backgroundColor: colors.gray,
 }
 

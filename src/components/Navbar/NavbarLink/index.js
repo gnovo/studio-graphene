@@ -2,9 +2,8 @@ import React from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import styled from "styled-components"
 
-import { colors } from '../../../styles'
+import { colors } from "../../../styles"
 
-// styles
 const NavItem = styled(AnchorLink)`
   text-decoration: none;
   color: #111;
@@ -45,10 +44,9 @@ const linkStyles = {
   color: colors.charcoal,
   fontSize: 18,
   fontWeight: "bold",
-  textDecoration: 'none',
+  textDecoration: "none",
 }
 
-// markup
 const NavbarLink = ({ path, title }) => {
   return (
     <NavItem to={`#${path}`} title={title}>

@@ -4,7 +4,7 @@ import { colors } from "../../styles"
 
 const containerStyles = {
   width: "100vw",
-  height: "100vh",
+  height: 300,
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
@@ -12,17 +12,12 @@ const containerStyles = {
   backgroundColor: colors.gray,
 }
 
-const textStyles = {
-  fontSize: 24,
-  color: colors.white,
-}
 
-const Recipes = () => {
+const Footer = () => {
   return (
-    <div style={containerStyles} id="recipes">
-      <h2 style={textStyles}>RECIPES</h2>
+    <div style={containerStyles} id="footer">
     </div>
   )
 }
 
-export default Recipes
+export default Footer

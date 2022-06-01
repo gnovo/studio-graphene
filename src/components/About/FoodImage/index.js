@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 const foodImageStyles = {
-  position: 'absolute',
+  position: "absolute",
   left: 0,
 }
 

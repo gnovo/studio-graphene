@@ -1,6 +1,6 @@
 import React from "react"
 
-import { colors } from '../../../styles'
+import { colors } from "../../../styles"
 
 const titleContainerStyles = {
   marginTop: 48,
@@ -9,20 +9,20 @@ const titleContainerStyles = {
 const primaryTitleStyles = {
   color: colors.white,
   fontSize: 115,
-  textAlign: 'center',
+  textAlign: "center",
 }
 
 const secondaryTitleStyles = {
   color: colors.white,
   fontSize: 82,
-  textAlign: 'center',
+  textAlign: "center",
 }
 
 const tertiaryTitleStyles = {
   color: colors.white,
   fontSize: 35,
   marginTop: 16,
-  textAlign: 'center',
+  textAlign: "center",
 }
 
 const Title = () => {

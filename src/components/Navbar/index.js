@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react"
 
-import NavbarLink from './NavbarLink'
+import NavbarLink from "./NavbarLink"
 
-import { colors } from '../../styles'
+import { colors } from "../../styles"
 
 const navbarStyles = {
-  position: 'fixed',
+  position: "fixed",
   top: 0,
   zIndex: 9999,
   paddingTop: 28,
   paddingBottom: 28,
-  width: '100%',
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
+  width: "100%",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "space-between",
 }
 
 const navbarLinkStyles = {
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "space-between",
 }
 
 const Navbar = () => {
@@ -34,10 +34,10 @@ const Navbar = () => {
       }
     }
 
-    window.addEventListener('scroll', changeNavbarColor)
+    window.addEventListener("scroll", changeNavbarColor)
 
     return () => {
-      window.removeEventListener('scroll', changeNavbarColor)
+      window.removeEventListener("scroll", changeNavbarColor)
     }
   }, [])
 

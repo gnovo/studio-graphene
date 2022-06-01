@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { colors } from '../../../styles'
+import { colors } from "../../../styles"
 
 const TextContainer = styled.div`
   position: absolute;
@@ -23,15 +23,15 @@ const TextContainer = styled.div`
 `
 
 const textContainerStyles = {
-  position: 'relative',
+  position: "relative",
 }
 
 const textStyles = {
   color: colors.charcoal,
   width: 100,
-  transform: 'matrix(0,-1,1,0,0,0)',
+  transform: "matrix(0,-1,1,0,0,0)",
   fontSize: 12,
-  textAlign: 'center',
+  textAlign: "center",
 }
 
 const RequestInfo = () => {
